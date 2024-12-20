@@ -1,0 +1,60 @@
+.App {
+  background-color: #f8f9fa; /* Fond léger et neutre pour contraste clair */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.main_title {
+  color: #333; /* Couleur textuelle principale sérieuse mais contrastée */
+  font-size: 2.5rem; /* Titre principal plus grand pour une meilleure lisibilité */
+  margin-bottom: 30px; /* Espacement pour le titre principal */
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Espacement entre les cartes plus spacieux pour une meilleure aération */
+}
+
+.product-card {
+  background-color: #ffffff; /* Fond de carte blanc avec un léger contraste */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour profondeur */
+  padding: 20px;
+  width: 280px; /* Largeur plus élargie pour plus d'espace et de confort */
+  text-align: left;
+  transition: transform 0.3s ease-in-out; /* Animation de survol */
+  cursor: pointer; /* Animation de survol */
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Effet de survol pour surélever légèrement */
+}
+
+.product-title {
+  color: #007bff; /* Couleur bleu vif pour un effet dynamique et pétillant */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  color: #6c757d; /* Couleur grise claire pour lisibilité */
+  font-size: 0.9rem; /* Taille plus petite pour lisibilité */
+}
+
+.product-price {
+  color: #ffc107; /* Couleur orange vif pour un accent sur le prix */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.new-product-btn {
+  margin-top: 20px;
+  background-color: #28a745; /* Couleur verte pétillante pour le bouton "New Product" */
+  color: white;
+  &:hover {
+    background-color: #218838; /* Teinte plus foncée en hover pour contraste */
+  }
+}
